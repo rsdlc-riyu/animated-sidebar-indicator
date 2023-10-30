@@ -10,10 +10,10 @@ const sidebarNavItems = [
         section: ''
     },
     {
-        display: 'Getting Started',
+        display: 'Status',
         icon: <i className='bx bx-star'></i>,
-        to: '/started',
-        section: 'started'
+        to: '/status',
+        section: 'status'
     },
     {
         display: 'Calendar',
@@ -21,18 +21,7 @@ const sidebarNavItems = [
         to: '/calendar',
         section: 'calendar'
     },
-    {
-        display: 'User',
-        icon: <i className='bx bx-user'></i>,
-        to: '/user',
-        section: 'user'
-    },
-    {
-        display: 'Orders',
-        icon: <i className='bx bx-receipt'></i>,
-        to: '/order',
-        section: 'order'
-    },
+
 ]
 
 const Sidebar = () => {
@@ -59,7 +48,7 @@ const Sidebar = () => {
 
     return <div className='sidebar'>
         <div className="sidebar__logo">
-            Animate
+        <img src="https://pbs.twimg.com/media/F9LwAx0bQAAlpbA?format=jpg&name=large" width="100" height="100" />
         </div>
         <div ref={sidebarRef} className="sidebar__menu">
             <div
